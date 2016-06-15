@@ -3,23 +3,52 @@ package com.clearfaun.mdlag;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+ 
+
+        Animal sheep = new Sheep("Silly Sam").getAnimal();
+
+        System.out.println(sheep.getType());
+        //sheep
+        System.out.println(sheep.getName());
+        //sam the sheep
 
         try {
+            Animal sheepClone = sheep.clone();
 
-            Sheep sheep = new Sheep();
-            Sheep clone = sheep.clone();
-            clone.getAnimal().setName("David");
+            System.out.println(sheepClone.getType());
+            //sheep
+            System.out.println(sheepClone.getName());
+            //sam the sheep
+            //perfect clone
 
-            System.out.println(sheep.getAnimal().getType());
+            System.out.println();
 
-            System.out.println(sheep.getAnimal().getName());
-            System.out.println(clone.getAnimal().getName());
+            sheepClone.setName("Diana");
+            sheepClone.setType("Sheep Clone");
 
 
-        } catch(Exception exception) {
-            System.out.println(exception.getMessage());
+            System.out.println(sheepClone.getType());
+            //sheep clone
+            System.out.println(sheepClone.getName());
+            //Diana
+            //data has changed but does the old sheep remain the same?
+
+            System.out.println();
+
+
+
+        }catch (Exception e){
+            System.out.println(e.getMessage());
         }
+
+
+        //the old sheep remains the same
+        //two sheep with two
+        System.out.println(sheep.getType());
+        //sheep
+        System.out.println(sheep.getName());
+        //sam the sheep
+
 
 
 

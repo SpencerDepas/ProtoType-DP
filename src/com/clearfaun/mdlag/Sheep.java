@@ -7,8 +7,9 @@ public class Sheep implements Prototype<Sheep> {
 
     private Animal animal = new Animal();
 
-    public Sheep(){
+    public Sheep(String name){
         animal.setType("Sheep");
+        animal.setName(name);
 
     }
 
