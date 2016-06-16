@@ -32,6 +32,8 @@ Deep copying:
 A deep copy occurs when an object is copied along with the objects to which it refers. Below image shows obj1 after a deep copy has been performed on it. Not only has obj1 been copied, but the objects contained within it have been copied as well. We can use Java Object Serialization to make a deep copy. Unfortunately, this approach has some problems too(detailed examples). 
 
 
+![alt tag](https://i-msdn.sec.s-msft.com/dynimg/IC400939.png)
+
 Notes
 
-*Java Clone is not reliable.
+*Java Clone on its own is not reliable.
