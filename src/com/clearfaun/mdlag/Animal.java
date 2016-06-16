@@ -3,7 +3,11 @@ package com.clearfaun.mdlag;
 /**
  * Created by SpencerDepas on 6/14/16.
  */
-public class Animal implements Prototype<Animal> {
+public class Animal implements Cloneable {
+
+    //prototype
+    //
+    //
 
     private String name = "";
     private String type = "";
@@ -27,7 +31,7 @@ public class Animal implements Prototype<Animal> {
         this.name = name;
     }
 
-    @Override
+
     public Animal clone()
             throws CloneNotSupportedException {
         return (Animal)super.clone();

@@ -3,7 +3,11 @@ package com.clearfaun.mdlag;
 /**
  * Created by SpencerDepas on 6/14/16.
  */
-public class Sheep implements Prototype<Sheep> {
+public class Sheep extends Animal {
+
+    //concrete prototype
+    //
+    //
 
     private Animal animal = new Animal();
 
@@ -24,7 +28,7 @@ public class Sheep implements Prototype<Sheep> {
 
 
     @Override
-    public Sheep clone()
+    public Animal clone()
             throws CloneNotSupportedException {
         Sheep clone = (Sheep)super.clone();
         clone.setAnimal(clone.getAnimal().clone());
