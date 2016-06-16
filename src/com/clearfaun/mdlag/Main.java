@@ -2,6 +2,9 @@ package com.clearfaun.mdlag;
 
 public class Main {
 
+    //client
+    //
+    //
     public static void main(String[] args) {
  
 
@@ -10,7 +13,9 @@ public class Main {
         System.out.println(sheep.getType());
         //sheep
         System.out.println(sheep.getName());
-        //sam the sheep
+        //Silly Sam
+
+        System.out.println();
 
         try {
             Animal sheepClone = sheep.clone();
