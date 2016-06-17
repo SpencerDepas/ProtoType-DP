@@ -23,7 +23,7 @@ public class Main {
             System.out.println(sheepClone.getType());
             //sheep
             System.out.println(sheepClone.getName());
-            //sam the sheep
+            //sam the sheepp
             //perfect clone
 
             System.out.println();
