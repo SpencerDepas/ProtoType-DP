@@ -30,6 +30,7 @@ public class Main {
 
             sheepClone.setName("Diana");
             sheepClone.setType("Sheep Clone");
+            sheepClone.setName("Diana");
 
 
             System.out.println(sheepClone.getType());
