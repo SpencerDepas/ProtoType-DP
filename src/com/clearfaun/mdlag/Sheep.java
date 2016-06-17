@@ -9,12 +9,13 @@ public class Sheep extends Animal {
     //
     //
 
+
     private Animal animal = new Animal();
 
     public Sheep(String name){
         animal.setType("Sheep");
         animal.setName(name);
-
+        System.out.println();
     }
 
     public Animal getAnimal() {

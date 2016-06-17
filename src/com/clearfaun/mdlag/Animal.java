@@ -33,7 +33,9 @@ public class Animal implements Cloneable {
 
 
     public Animal clone()
+
             throws CloneNotSupportedException {
+        System.out.println();
         return (Animal)super.clone();
     }
 }
