@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b87cf1c-92a6-4be7-957b-0f6a73afc3cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/clearfaun/mdlag/Main.java" afterPath="$PROJECT_DIR$/src/com/clearfaun/mdlag/Main.java" />
     </list>
     <ignored path="ProtoTypePattern.iws" />
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/clearfaun/mdlag/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.52816904">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -87,8 +86,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="43" />
+    <option name="x" value="25" />
+    <option name="y" value="215" />
     <option name="width" value="1350" />
     <option name="height" value="828" />
   </component>
@@ -373,7 +372,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="43" width="1350" height="828" extended-state="0" />
+    <frame x="25" y="215" width="1350" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -507,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/clearfaun/mdlag/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52816904">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding />
         </state>
       </provider>
