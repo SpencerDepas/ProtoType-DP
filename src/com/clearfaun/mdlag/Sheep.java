@@ -15,7 +15,7 @@ public class Sheep extends Animal {
     public Sheep(String name){
         animal.setType("Sheep");
         animal.setName(name);
-        System.out.println("tt");
+        System.out.println("ttt");
     }
 
     public Animal getAnimal() {

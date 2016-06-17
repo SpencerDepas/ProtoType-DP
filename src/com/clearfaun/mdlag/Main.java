@@ -27,7 +27,7 @@ public class Main {
             //perfect clone
 
             System.out.println();
-            System.out.println("tt");
+            System.out.println("ttt");
 
 
             sheepClone.setName("Diana");
